@@ -1,15 +1,15 @@
-userAge=17;
-is_subscribed=true;
+userAge = 18;
+var isSubscribed = true;
 
 
 if (userAge>=18){
     console.log("user is of age");
-} else if (userAge<18){
+} else{
     console.log("user is not of age");
 }
 
-if (is_subscribed=true){
+if (isSubscribed){
     console.log("user is subscribed");
-} else if (is_subscribed=false){
+} else if (!isSubscribed){
     console.log("user is not subscribed");
 }
